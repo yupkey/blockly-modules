@@ -1,0 +1,15 @@
+{
+  "name": "blockly-modules",
+  "version": "1.0.0",
+  "description": "Blockly modules for js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/yupkey/blockly-modules.git"
+  },
+  "main": "blockly.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "yupk",
+  "license": "MIT"
+}

@@ -1,10 +1,10 @@
 {
   "name": "blockly-modules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Blockly modules for js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/yupkey/blockly-modules.git"
+    "type": "git",
+    "url": "https://github.com/yupkey/blockly-modules.git"
   },
   "main": "blockly.js",
   "scripts": {

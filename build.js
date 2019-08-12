@@ -8,8 +8,18 @@ function build(path, file, codeStart, codeEnd) {
     fs.appendFileSync(fd, codeStart, utf);
     fs.appendFileSync(fd, data, utf);
     fs.appendFileSync(fd, codeEnd, utf);
+    if (path) {
+      fs.readFile(`build/${path}${file}.js`, 'utf8', (err, data) => {
+        if (err) return console.log(err);
+
+        const result = data.replace(/goog\.[^\n]+/g, '');
+        fs.writeFile(`build/${path}${file}.js`, result, 'utf8', (err) => {
+          if (err) return console.log(err);
+        });
+      });
+    }
   } catch (err) {
-    console.log(`Error`, err);
+    console.log(err);
   } finally {
     if (fd !== undefined)
       fs.closeSync(fd);

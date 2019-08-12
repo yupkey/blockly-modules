@@ -2,9 +2,9 @@ var Blockly = {}; Blockly.Msg={};  module.exports = function(){// This file was 
 
 'use strict';
 
-goog.provide('Blockly.Msg.en');
 
-goog.require('Blockly.Msg');
+
+
 
 Blockly.Msg["ADD_COMMENT"] = "Add Comment";
 Blockly.Msg["CANNOT_DELETE_VARIABLE_PROCEDURE"] = "Can't delete the variable '%1' because it's part of the definition of the function '%2'";

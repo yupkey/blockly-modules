@@ -1,6 +1,6 @@
 {
   "name": "blockly-modules",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Blockly modules for js",
   "repository": {
     "type": "git",

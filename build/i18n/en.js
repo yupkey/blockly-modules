@@ -1,10 +1,10 @@
-var Blockly = {}; Blockly.Msg={};  module.exports = function(){var Blockly = {}; Blockly.Msg={};  module.exports = function(){ // This file was automatically generated.  Do not modify.
+var Blockly = {}; Blockly.Msg={};  module.exports = function(){// This file was automatically generated.  Do not modify.
 
 'use strict';
 
+goog.provide('Blockly.Msg.en');
 
-
-
+goog.require('Blockly.Msg');
 
 Blockly.Msg["ADD_COMMENT"] = "Add Comment";
 Blockly.Msg["CANNOT_DELETE_VARIABLE_PROCEDURE"] = "Can't delete the variable '%1' because it's part of the definition of the function '%2'";
@@ -433,4 +433,4 @@ Blockly.Msg["VARIABLES_HUE"] = "330";
 Blockly.Msg["TEXTS_HUE"] = "160";
 Blockly.Msg["PROCEDURES_HUE"] = "290";
 Blockly.Msg["COLOUR_HUE"] = "20";
-Blockly.Msg["VARIABLES_DYNAMIC_HUE"] = "310";return Blockly.Msg;}return Blockly.Msg;}
+Blockly.Msg["VARIABLES_DYNAMIC_HUE"] = "310";return Blockly.Msg;}
